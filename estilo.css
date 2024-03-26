@@ -1,0 +1,57 @@
+/*página  inicial */
+
+.bem_vindo{
+    color:#24938C;
+	font-size: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*página  inicial Logado */
+
+.ola_logado{
+    color:#24938C;
+	font-size: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*Satus do Pedido*/
+
+.titulo_status{
+    color:#24938C;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*Agendamento*/
+.agendamento{
+    color:#24938C;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*Pagamento*/
+.pagamento{
+    color:#24938C;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*E-commerce*/
+.titulo_ecommerce{
+    color:#24938C;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Carrinho*/
+.titulo_produtos{
+    color:#24938C;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

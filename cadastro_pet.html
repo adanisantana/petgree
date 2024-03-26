@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu pet</title>
+</head>
+<body>
+    <menu>
+        <a href="perfil.html">Login</a>
+        <a href="pagina_inicial_logado.html"></a>
+        <a href="buscar.html">busca</a>
+    </menu>
+    <form>
+        <fieldset>
+            <label>Nome do Pet:</label>
+            <br>
+            <input type="text" name="nome_pet" required>
+            <br><br>
+            <div>
+                <label>Tipo de pet:</label>
+                <br><br>
+                <input type="radio" id="cachorro" name="cachorro" value="cachorro">
+                <label>Cachorro</label>
+                <input type="radio" id="gato" name="gato" value="gato">
+                <label>Gato</label>
+                <input type="radio" id="hamster" name="hamster" value="hamster">
+                <label>Hamster</label>
+                <br><br>
+                <input type="radio" id="coelho" name="coelho" value="coelho">
+                <label>Coelho</label>
+                <input type="radio" id="chinchila" name="chinchila" value="chinchila">
+                <label>Chinchila</label>
+                <input type="radio" id="porquinho_da_india" name="porquinho_da_india" value="porquinho_da_india">
+                <label>Porquinho da índia</label>
+            </div>
+            <br><br>
+
+            <div>
+                <label>Temperamento:</label>
+                <br>
+                <select name="temperamento">
+                    <option value="manso">Manso</option>
+                    <option value="bravo">Bravo</option>
+                </select>  
+            </div>
+            <br> 
+            <div> 
+                <label>Porte:</label>
+                <br>
+                <select name="porte">
+                    <option value="pequeno">Pequeno</option>
+                    <option value="medio">Médio</option>
+                    <option value="grande">Grande</option>
+                </select>
+
+            </div>
+
+        </fieldset>
+        <botton>Cadastrar</botton>
+    </form>
+</body>
+</html>
