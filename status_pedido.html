@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="estilo.css">
+<style>
+    .titulo_status{color:#24938c; text-align: center; font-family: 'Lucida Sans Unicode',sans-serif; font-size: 50px;}
+    .box_pedido{width: 200px;height: 150px; border:25px solid #24938c;padding: 40px;
+        margin:35px;background-color:#9ccfcb;
+        }
+    .texto_entrega{font-size: 20px;font-family: Helvetica;font-style: bold;}
+    .texto{font-size: 14px; font-family: Helvetica; margin-top: 40px;}
+
+    
+</style>
 <title>Status do Pedido</title>
 </head>
 <body>
@@ -11,14 +20,16 @@
     </menu>
     <br><br><br><br>
 
-<h1 class="titulo_status">Status do Pedido</h1>
+<h1 class="titulo_status"><img class="logo" src="imagens/logo.png"> Status do Pedido</h1>
 <br><br>
 
-<div>
-<fieldset>
-<data_entrega> Chega dia 16/03/2024</data_entrega>
-<br><br>
-<text2>Em transporte...<text2>
+<div class="box_pedido">
+<fieldset >
+    <div class="info_entrega">
+        <data_entrega class="texto_entrega"> Chega dia 16/03/2024</data_entrega>
+            <br><br>
+        <text2 class="texto">Em transporte...<text2>
+    </div>
 </fieldset>
 </div>
 <br><br>

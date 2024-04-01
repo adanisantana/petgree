@@ -1,0 +1,18 @@
+.cadastro{ border-radius: 4%;    background-color: #D7F5F4;
+    max-width: 400px; height:400px;display:flexbox;margin-top: 2cm; margin-left: 15cm;margin-right: 15cm;
+    font-family: Helvetica, sans-serif;font-size: 15px; text-align: left;}
+
+input:focus{
+    width: 250px;
+}
+.input_name,.input_email,.input_confirme, .input_senha{width: 6.5cm; margin-top: 0.2cm;}
+
+.texto_cadastro{margin-left: 35px; margin-top: 35px;}
+
+.titulo_form{color:#24938c;text-align: center; font-family: 'Lucida Sans Unicode',sans-serif; font-size: 50px;}
+
+.class_botao_enviar{background-color: #24938c;width: 250px;margin-top: 30px; border-radius: 3cm; color:white;font-size: 15px;
+font-family: Helvetica;}
+
+
+

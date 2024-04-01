@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="estilo.css">
+   <link rel="stylesheet" href="cadastro.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
@@ -13,26 +14,27 @@
     <br><br><br><br>
     <form>
         <center>
-            Cadastro
+            <label class="titulo_form"><img class="logo" src="imagens/logo.png"> Cadastro</label>
         </center>
-    <fieldset>
-        
+    <fieldset class="cadastro">
+        <div class=texto_cadastro>
             <label>Nome:</label>
             <br>
-            <input type="text" name="text" placeholder="Digite o nome completo" class="classe_nome" required>
+            <input type="text" name="text" placeholder="Digite o nome completo" class="input_name" required>
             <br><br>
             <label>E-mail:</label>
             <br>
-            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" class="input_email" required>
             <br><br>
             <label>Confirme seu e-mail:</label>
             <br>
-            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" class="input_confirme" required>
             <br><br>
             <label>Escolha uma senha:</label>
             <br>
-            <input type="password" name="password" placeholder="Digite a sua senha" required>
+            <input type="password" name="password" placeholder="Digite a sua senha" class="input_senha" required>
     <br><br>
+        </div>
     <center>
     <input class="class_botao_enviar" type="submit">
     </center>

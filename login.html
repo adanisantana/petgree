@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+   <link rel="stylesheet" href="login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
@@ -11,8 +12,13 @@
     </menu>
         <br><br><br><br>
     <form>
-        <fieldset>
-            <center>Login</center>
+        <fieldset class="login">
+            <div>
+                <center>
+                    <label class="titulo_form">Login</label>
+                </center>
+            </div>
+            <div class="texto">
                 <br> <br>
                 <label>Digite o seu e-mail:</label>
                 <br>
@@ -22,8 +28,9 @@
                 <br>
                 <input type="password" name="senha" placeholder="Digite a sua senha" class="class_senha" required>
                 <br><br>
+            </div>
                 <center>
-                    <button>Entrar</button>
+                    <button class="botao_entrar">Entrar</button>
                 </center>
         </fieldset>
     </form>

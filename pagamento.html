@@ -12,26 +12,31 @@
     <menu>
         <a href="pagina_inicial_logado.html"></a>
     </menu>
+    <br><br>
     <div>
+        <h1 class="pagamento">Pagamento</h1>
+    </div>
+    <br><br><br>
+    <div name="selecao_cartao">
         <label>Selecione o cartão:</label>
         <br>
 
-    <select name="cartao">
+    <select name="selecao_cartao">
         <option value="debito">Débito</option>
         <option value="credito">Crédito</option>
     </select>
         <br><br>
     
-    <label>Número do cartão:</label>
+    <label class="texto">Número do cartão:</label>
     <input type="text" name="numero_cartao{16}">
 
-    <div validade_cvv>
+    <div>
         <br><br>
-        <label>Validade</label>
+        <label class="texto">Validade</label>
         <input type="text" name="validade" placeholder="MM/YYYY">
         <label>CVV</label>
         <input type="text" name="cvv">
-    </div validade_cvv>
+    </div >
 
     </div>
         <br><br><br><br>

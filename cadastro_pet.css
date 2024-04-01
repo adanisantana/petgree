@@ -1,0 +1,19 @@
+.perfil_pet{border-radius: 33cm;margin-top: 2cm;margin-right: 45%;margin-left: 15%;}
+*{font-size: 15px; font-family: Helvetica; margin-left: 20 px;margin-top: px;}
+.escolha_pet{padding: 1%; list-style: none; }
+
+.item_dog,.item_cat, .item_hamster,.item_coelho,.item_chinchilla,.item_pig{ display:inline; background-color: #D7F5F4;
+    margin-right: 1px;text-align: left; padding-left: 10px;padding-right: 10px;}
+
+.cadastro_pet{border-radius: 1%;    background-color: #D7F5F4;
+max-width: 500px; height:800px;display:flexbox;margin-top: 2cm; margin-left: 15cm;margin-right: 15cm;
+font-family: Helvetica, sans-serif;font-size: 15px; text-align: left;}
+
+.botao_cadastrar{background-color: #24938c;width: 300px; height:30px;  margin-top: 5px; border-radius: 3cm; color:white;font-size: 15px;
+font-family: Helvetica;}
+
+.input_pet{width:250px; margin-top: 0.2cm;}
+
+input:focus{color:#000000;background-color: #e1e1e1;}
+
+.temperamento,.porte{width:100px;margin-top:0.2cm;}

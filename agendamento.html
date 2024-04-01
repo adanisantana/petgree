@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="estilo.css">
+    
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="agendamento.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agendamento</title>
 </head>
 <body>
     <menu>
@@ -12,35 +13,39 @@
     </menu>
 
     <br><br>
-<h1 class="agendamento">Agendamento</h1>
+<h1 class="agendamento"><img class="logo" src="imagens/logo.png"> Agendamento</h1>
 <br>
-<div class="escolher_pet">
+<center>
+    <div class="escolher_pet">
+        <label> Meu Pet</label>
+        <select>
+            <option value="Totó">Totó</option>
+            <option value="Lily">Lily</option>
+        </option>
+        </select>
+    </div>
 
-    <label>Meu Pet</label>
-<select>
-    <option value="Totó">Totó</option>
-    <option value="Lily">Lily</option>
-    </option>
-</select>
+    <br><br>
+
+    <div class="selecione_servico">
+        <label>Selecione o serviço:</label>
+        <select>
+            <option value="banho">Banho</option>
+            <option value="tosa">Tosa</option>
+            <option value="Banho e Tosa">Banho e Tosa</option>
+        </select>
+    <br><br>
+    <label>Data</label>
+    <input type="date">
+    <br><br>
+    <label>Hora</label>
+    <input type="time">
+</center>
 </div>
-
 <br><br>
 
-<div class="selecione_servico">
-    <select>
-        <option value="banho">Banho</option>
-        <option value="tosa">Tosa</option>
-        <option value="Banho e Tosa">Banho e Tosa</option>
-    </select>
-   <br><br>
-   <label>Data</label>
-   <input type="date">
-   <br><br>
-   <label>Hora</label>
-   <input type="time">
-</div>
-<br><br>
-
-<button>Avançar</button>
+<center>
+    <button class="avancar">Avançar</button>
+</center>
 </body>
 </html>

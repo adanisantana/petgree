@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="cadastro_pet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre seu pet</title>
 </head>
@@ -13,34 +13,64 @@
         <a href="buscar.html">busca</a>
     </menu>
     <form>
-        <fieldset>
-            <label>Nome do Pet:</label>
-            <br>
-            <input type="text" name="nome_pet" required>
+        <fieldset class="cadastro_pet">
+            <div class="div_nome_pet">
+                <img class="perfil_pet" src="imagens/cachorro.jpg" width="200px" height="200px" align="center">
+                <br><br><br><br>
+                <label>Nome do Pet:</label>
+                <br>
+                <input type="text" name="input_pet" class="input_pet" required>
+            </div>
             <br><br>
             <div>
                 <label>Tipo de pet:</label>
                 <br><br>
-                <input type="radio" id="cachorro" name="cachorro" value="cachorro">
-                <label>Cachorro</label>
-                <input type="radio" id="gato" name="gato" value="gato">
-                <label>Gato</label>
-                <input type="radio" id="hamster" name="hamster" value="hamster">
-                <label>Hamster</label>
-                <br><br>
-                <input type="radio" id="coelho" name="coelho" value="coelho">
-                <label>Coelho</label>
-                <input type="radio" id="chinchila" name="chinchila" value="chinchila">
-                <label>Chinchila</label>
-                <input type="radio" id="porquinho_da_india" name="porquinho_da_india" value="porquinho_da_india">
-                <label>Porquinho da índia</label>
+
+                <ul class="escolha_pet">
+                   <li class="item_dog">
+                        <input type="radio" id="cachorro" name="cachorro" value="cachorro">
+                        <label><img class="icon_dog" src="imagens/icon_dog.png" width="30px">Cachorro</label>
+                       
+                    </li> 
+
+                    <li class="item_cat"> 
+                        <input type="radio" id="gato" name="gato" value="gato">
+                        <label><img class="icon_cat" src="imagens/icon_cat.png" width="30px">Gato</label>
+                    </li>   
+                    <br>
+
+                    <li class="item_hamster">
+                        <input type="radio" id="hamster" name="hamster" value="hamster">
+                        <label><img class="icon_hamster" src="imagens/icon_hamster.png" width="30px">Hamster</label>
+                        
+                    </li>
+
+                    <li class="item_coelho">
+                        <input type="radio" id="coelho" name="coelho" value="coelho">
+                        <label><img class="icon_coelho" src="imagens/icon_coelho.png" width="30px">Coelho</label>
+                    </li>
+                    <br>
+                    <li class="item_pig">
+                        <input type="radio" id="porquinho_da_india" name="porquinho_da_india" value="porquinho_da_india">
+                        <label><img class="icon_pig" src="imagens/icons_porquinho.png" width="30px">Porquinho da índia</label>
+                     </li>
+                     <br>
+                   
+
+                    <li class="item_chinchilla">
+                        <input type="radio" id="chinchila" name="chinchila" value="chinchila">
+                        <label><img class="icon_chinchilla" src="imagens/icon_chinchilla.png" width="30px">Chinchila</label>
+                    </li>
+
+                    
+                    </ul>
             </div>
             <br><br>
 
             <div>
                 <label>Temperamento:</label>
                 <br>
-                <select name="temperamento">
+                <select name="temperamento" class="temperamento">
                     <option value="manso">Manso</option>
                     <option value="bravo">Bravo</option>
                 </select>  
@@ -49,7 +79,7 @@
             <div> 
                 <label>Porte:</label>
                 <br>
-                <select name="porte">
+                <select name="porte" class="porte">
                     <option value="pequeno">Pequeno</option>
                     <option value="medio">Médio</option>
                     <option value="grande">Grande</option>
@@ -58,7 +88,10 @@
             </div>
 
         </fieldset>
-        <botton>Cadastrar</botton>
     </form>
+    <br><br>
+    <center>
+        <button class="botao_cadastrar">Cadastrar</button>
+    </center>
 </body>
 </html>
