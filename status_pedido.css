@@ -1,0 +1,13 @@
+.titulo_status{color:#24938c; text-align: center; font-family: 'Lucida Sans Unicode',sans-serif; font-size: 50px;}
+
+.box_pedido{width: 200px;height: 150px; border:25px solid #24938c;padding: 40px;
+    margin:35px;background-color:#9ccfcb;
+    }
+
+.texto_entrega{font-size: 20px;font-family: Helvetica;font-style: bold;}
+
+.texto{font-size: 14px; font-family: Helvetica; margin-top: 40px;}
+
+.nav_login{margin-left:20px;}
+
+.nav_fechar{margin-left: 1300px;}

@@ -8,7 +8,11 @@
 .fieldset_mais_vendidos{
     background-color: #24938c;
     width: 100px; display: inline; 
+     color:white;
 }
+.fieldset_mais_vendidos2{ background-color: #24938c;
+    width: 100px; display: inline; color: white; }
+
 .ecommerce_mais_vendidos{
     padding: 2%; list-style: none;
 }

@@ -17,3 +17,7 @@ font-family: Helvetica;}
 input:focus{color:#000000;background-color: #e1e1e1;}
 
 .temperamento,.porte{width:100px;margin-top:0.2cm;}
+
+.nav_login{margin-left:20px;}
+
+.nav_fechar{margin-left: 1300px;}

@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="estilo.css">
+<head> 
     <meta charset="UTF-8">
+  <link rel="stylesheet" href="redefinicao_senha.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redefinir senha</title>
 </head>
 <body>
-    <menu>
-        <a href="pagina_inicial.html"></a>
-        <a href="login.html"></a>
-    </menu>
+      <!-- Menu -->
+      <nav class="navbar navbar-light bg-light">
+        <a class="nav_voltar" href="home.html">
+          <img src="imagens/botao_voltar.svg" width="35" height="35" alt="voltar">
+        </a>
+    
+        <a class="nav_fechar" href="">
+            <img src="imagens/botao_fechar.svg" width="35" height="35" alt="fechar">
+          </a>
+            
+      </nav>
     <form>
-        <fieldset>
+        <fieldset class="redefina_senha">
+            <br>
         <center>
-            Redefina a sua senha
+            <label class="titulo_redefinir">  Redefina a sua senha </label>
+       
+            <br><br>
+            <label class="texto">Digite o código enviado por e-mail:</label>
+            <input type="text" name="codigo" placeholder="Digite o código" class="class_codigo" required>
+            <br>
+            <label class="texto">Digite a sua nova senha:</label>
+            <br>
+            <input type="password" name="senha" placeholder="Digite a sua senha" class="class_senha" required>
+            <br>
+            <label class="texto">Confirme a sua nova senha:</label>
+            <br>
+            <input type="password" name="senha" placeholder="Digite a sua senha" class="class_senha" required>
+            <br><br>
+
+            <button class="avancar">Avançar</button>
         </center>
-        <br><br>
-        <label>Digite o código enviado por e-mail:</label>
-        <input type="text" name="codigo" placeholder="Digite o código" class="class_codigo" required>
-        <label>Digite a sua nova senha:</label>
-        <br>
-        <input type="password" name="senha" placeholder="Digite a sua senha" class="class_senha" required>
-        <br><br>
-        <label>Confirme a sua nova senha:</label>
-        <br>
-        <input type="password" name="senha" placeholder="Digite a sua senha" class="class_senha" required>
-        <br><br>
     </fieldset>
     </form>
 </body>

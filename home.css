@@ -1,3 +1,4 @@
+
 .bem_vindo{color:#24938c;text-align: center; font-family: 'Lucida Sans Unicode',sans-serif; font-size: 50px;}
     
 .agendamento_link,.ecommerce_link,.pedido_acompanhamento,.link_cadastro{background-color: #D7F5F4;text-align: center;
@@ -5,10 +6,21 @@
     font-family: Helvetica, sans-serif;font-size: 35px;border-radius: 33cm;
 
 }
-.ul{padding: 25px; list-style: none; }
 
-.item{border:2px solid #bbb; display:inline; background-color: #D7F5F4;margin-right: 2px;
-     text-align: center; padding-left: 15px;padding-right: 15px;}
+.nav_carrinho{
+    margin-left:1300px; 
+   }
+
+.form-inline{margin-left: 1100px;}
+
+
+.menu{margin-top: 10px; }
+
+.ul{padding: 25px; list-style: none; position: relative; left:50px;width:1800px; height: 50px; border:1px solid #bbb ;background-color: #D7F5F4;
+    margin-top: 25px; padding-bottom: 5px;}
+
+.item{border:1px solid #bbb; display:contents; background-color: #D7F5F4;margin-right:2px;
+    text-align: center; padding-left: 10px;padding-right: 10px;padding-bottom: 5px;}
 
 
 input:focus{color:#000000;

@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <link rel="stylesheet" href="pagamento.css">
 <title>Pagamento</title>
 </head>
 <body>
-
+    <nav class="navbar navbar-light bg-light">
+        <a class="nav_voltar" href="home.html">
+            <img src="imagens/botao_voltar.svg" width="35" height="35" alt="voltar">
+          </a>
+          
+        <a class="nav_login" href="login.html">
+          <img src="imagens/login.svg" width="35" height="35" alt="login">
+        </a>
+      
+          <a class="nav_fechar" href="">
+              <img src="imagens/botao_fechar.svg" width="35" height="35" alt="fechar">
+            </a>
+    </nav>
 <br><br>
 <br><br>
 
 <form>
-    <menu>
-        <a href="pagina_inicial_logado.html"></a>
-    </menu>
     <br><br>
-    <div>
-        <h1 class="pagamento">Pagamento</h1>
-    </div>
-    <br><br><br>
-    <div name="selecao_cartao">
-        <label>Selecione o cartão:</label>
-        <br>
-
-    <select name="selecao_cartao">
-        <option value="debito">Débito</option>
-        <option value="credito">Crédito</option>
-    </select>
-        <br><br>
     
-    <label class="texto">Número do cartão:</label>
-    <input type="text" name="numero_cartao{16}">
+        <div>
+            <h1 class="pagamento"><img class="logo" src="imagens/logo.png">Pagamento</h1>
+        </div>
+        
+        <center>
+            <fieldset class="cartao_pagamento">
+               
+                <div name="selecao_cartao">
+                <label>Selecione o cartão:</label>
+                <br>
 
-    <div>
-        <br><br>
-        <label class="texto">Validade</label>
-        <input type="text" name="validade" placeholder="MM/YYYY">
-        <label>CVV</label>
-        <input type="text" name="cvv">
-    </div >
+                <select name="selecao_cartao">
+                    <option value="debito">Débito</option>
+                    <option value="credito">Crédito</option>
+                </select>
+                    <br><br>
+    
+                <label class="texto">Número do cartão:</label>
+                <input type="text" name="numero_cartao{16}">
 
-    </div>
-        <br><br><br><br>
-        <button>Avançar</button>
-</form>
+                <div>
+                <br><br>
+                <label class="texto">Validade</label>
+                <input type="text" name="validade" placeholder="MM/YYYY">
+                <label>CVV</label>
+                <input type="text" name="cvv">
+                </div >
+            </fieldset>
+        </center>
+        
+
+        </div>
+            <br><br><br><br>
+        <center>
+            <button class="avancar">Avançar</button>
+        </center>
+    </form>
 
 
 

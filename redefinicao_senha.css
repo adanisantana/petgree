@@ -1,0 +1,14 @@
+.redefina_senha{ 
+    border-radius: 4%;    background-color: #D7F5F4;text-align: center;
+    max-width: 360px; height:360px;display:flexbox;margin-top: 5cm; margin-left: 15cm;margin-right: 15cm;
+    font-family: Helvetica, sans-serif;font-size: 25px; 
+    
+    }
+.titulo_redefinir{font-size: 18px;}
+
+.texto{ font-size: 16px; font-family: Helvetica; text-align: right; }
+
+.avancar{background-color: #24938c;width: 200px; height: 25px; margin-top: 25px; 
+    border-radius: 3cm; color:white;font-size: 15px; font-family: Helvetica;}
+
+.nav_fechar{margin-left:1300px;}

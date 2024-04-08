@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="recuperacao_senha.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recupere a Senha</title>
 </head>
 <body>
-    <menu>
-        <a href="pagina_inicial.html"></a>
-        <a href="login.html"></a>
-    </menu>
-    <form>
-        <fieldset>
-            <center>
-               <label class="titulo_form"> Recupere a sua senha!</label>
-            </center>
+    <!-- Menu -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="nav_voltar" href="home.html">
+          <img src="imagens/botao_voltar.svg" width="35" height="35" alt="voltar">
+        </a>
+    
+        <a class="nav_fechar" href="">
+            <img src="imagens/botao_fechar.svg" width="35" height="35" alt="fechar">
+          </a>
+            
+      </nav>
+   
+        <form>
+        <fieldset class="recupere_senha">
+        <center>
             <br><br>
+             <label class="titulo_form"><b> Recupere a sua senha!</b></label>
+            <br><br><br>
             <label class="texto">Digite seu email:</label>
             <input type="email" name="email" placeholder="Digite o seu e-mail" class="class_email" required>
-            <br><br>
-            <button>Avançar</button>
+            <br>
+
+            <button class="avancar">Avançar</button>
+        </center>
         </fieldset>
     </form>
+    
     
 </body>
 </html>
