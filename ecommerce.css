@@ -33,4 +33,13 @@
      position:relative; width:190px; top: 10px; left:0.5px;right: 10px;}
 
 *{font-size: 16px; font-family: Helvetica;}
+
 .preco{font-size:35px;}
+
+.carousel-inner{
+    display:flex;
+    transition:transform 0.5s ease-in-out;
+    transform:translate(0);
+}
+
+
